@@ -15,6 +15,7 @@ html {
 
 /* body styles */
 body {
+    font-family: "Figtree", sans-serif;
     background-color: var(--bg-color);
     display: flex;
     justify-content: center;
@@ -46,7 +47,7 @@ button {
     border: none;
     outline: none;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 800;
     border-radius: 0.5rem;
 }
 
@@ -66,6 +67,7 @@ button {
 /* h1 styles */
 h1 {
     margin-bottom: 0.5rem;
+    font-weight: 800;
 }
 
 h1:hover {
@@ -93,4 +95,10 @@ h1:hover {
 span {
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+@media  screen and (max-width: 375px) {
+    .main-container {
+        width: 90%;
+    }
 }
