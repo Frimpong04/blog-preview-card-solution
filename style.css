@@ -47,6 +47,7 @@ button {
     outline: none;
     font-size: 1rem;
     font-weight: bold;
+    border-radius: 0.5rem;
 }
 
 /* paragraph styles */
@@ -91,4 +92,5 @@ h1:hover {
 
 span {
     font-weight: bold;
+    font-size: 1.2rem;
 }
