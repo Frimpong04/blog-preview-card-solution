@@ -32,7 +32,7 @@ body {
 /* image styles */
 .image-container img {
     width: 100%;
-    border:1px solid blue;
+    /* border:1px solid blue; */
     height: auto;
     object-fit: contain;
     border-radius: 2rem;
@@ -42,16 +42,34 @@ body {
 button {
     margin: 1rem 0;
     background-color: var(--bg-color);
-    padding: 1rem 2.5rem;
+    padding: 1rem 1.5rem;
     border: none;
     outline: none;
-    font-size: 1.6rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 /* paragraph styles */
-p {
+.publish {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.main-text {
+    font-size:1.6rem;
+    color: var(--grey);
+    margin-bottom: 1rem;
+}
+/* h1 styles */
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: var(--bg-color);
 }
 
 /* avatar styles*/
@@ -59,13 +77,18 @@ p {
     display: flex;
     gap: 1rem;
     align-items: center;
+    /* border: 1px solid green; */
 }
 
 .avatar-container img {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .avatar-container p {
+    font-weight: bold;
+}
+
+span {
     font-weight: bold;
 }
