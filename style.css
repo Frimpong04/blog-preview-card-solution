@@ -1,0 +1,71 @@
+/* global styles reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    --bg-color: hsl(47, 88%, 63%);
+    --whiteColor: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+/* body styles */
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+}
+
+/* main content styles */
+.main-container {
+    background-color: var(--whiteColor);
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 0px var(--black);
+    margin: 10rem;
+}
+
+/* image styles */
+.image-container img {
+    width: 100%;
+    border:1px solid blue;
+    height: auto;
+    object-fit: contain;
+    border-radius: 2rem;
+}
+
+/* button styles */
+button {
+    margin: 1rem 0;
+    background-color: var(--bg-color);
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+}
+
+/* paragraph styles */
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* avatar styles*/
+.avatar-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.avatar-container img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.avatar-container p {
+    font-weight: bold;
+}
